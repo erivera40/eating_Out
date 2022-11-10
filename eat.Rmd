@@ -68,9 +68,14 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+Chi squared test has a p-value of 0.0008179 which is less than 0.05 so we reject the null hypothesis. This means there is a difference in the frequency of eating out among the races.   
+
+
 ```{r}
 fisherXY(mydata$race,mydata$eatout)
 ```
+
+
 
 ## Conclusion  
 
