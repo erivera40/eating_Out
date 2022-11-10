@@ -78,6 +78,6 @@ fisherXY(mydata$race,mydata$eatout)
 The Fisher XY test p- value is 0.0003864 which is less than 0.05 meaning we reject the null hypothesis. This demonstrates there is a significant difference among the races regarding the frequency of eating out.   
 
 
-
 ## Conclusion  
+Based on statistics from 1996, there is a statistical difference in the frequency of eating out between the white and black races. The Chi squared test has a p-value of 0.0008179 which is less than 0.05 so we reject the null hypothesis. This means there is a difference in the frequency of eating out among the races. The Fisher XY test p- value is 0.0003864 which is less than 0.05 meaning we reject the null hypothesis. This demonstrates there is a significant difference among the races regarding the frequency of eating out. The odds are 2.2 to 1 that white people are more likely to eat out than the black race. 
 
