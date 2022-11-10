@@ -47,8 +47,25 @@ mydata <- na.omit(mydata)
 barchartGC(~race+eatout,data=mydata, type="percent")
 ```
 
+## Numerical Description  
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+## Inferential Description  
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+```{r}
+fisherXY(mydata$race,mydata$eatout)
+```
+
+## Conclusion  
 
