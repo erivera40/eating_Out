@@ -47,6 +47,9 @@ mydata <- na.omit(mydata)
 barchartGC(~race+eatout,data=mydata, type="percent")
 ```
 
+Among the races it demonstrates they all eat out. The white race eats out the most among all races and the black race eats out the least among all races. The other race is between the white and black race.   
+
+
 ## Numerical Description  
 
 ```{r}
@@ -54,6 +57,8 @@ table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+Among the white race 82% eat out and 17% don't eat out. Among the black race 68% eat out while 31% don't. Among the other race 77% eat out and 22% don't. 
 
 ## Inferential Description  
 
